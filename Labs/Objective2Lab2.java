@@ -15,7 +15,7 @@ public class Objective2Lab2 {
     age = 37;
     state = "D.C.";
 
-    System.out.println("My name is " + name + ", I am " + age + ", and I was born in " + state);
+    System.out.println("Name: " + name + "Age: " + age + "State: " + state);
 
 
 
