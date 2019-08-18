@@ -41,4 +41,4 @@ public class RudeQuestions {
 
 // program works with integers or doubles because its still a number
 // name and job can be a number, but it will consider it a string
-// program fails when a string is input into integers or doubles
+// program crashes when a string is input into integers or doubles
