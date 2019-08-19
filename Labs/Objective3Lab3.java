@@ -25,7 +25,7 @@ public class Objective3Lab3 {
 
     birthYear = currentYear - age;
 
-    System.out.println("You were born in " + birthYear); // only works if user has already had birthday in calendar year
+    System.out.println("You were born in " + birthYear); // only works if user has already had thier birthday in calendar year
     input.close();
     }
 }
