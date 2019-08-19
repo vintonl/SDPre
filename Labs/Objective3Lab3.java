@@ -14,14 +14,16 @@ import java.util.Calendar;
 
 public class Objective3Lab3 {
   public static void main (String[] args) {
-    int birthYear, age;
+    int birthYear, age, currentYear;
 
-    Calendar cal = Calendar.getInstance();
-    int currentYear = cal.get(Calendar.YEAR);
+    birthYear = 0;
 
     Scanner input = new Scanner(System.in);
     System.out.println("How old are you?");
     age = input.nextInt();
+
+    Calendar cal = Calendar.getInstance();
+    currentYear = cal.get(Calendar.YEAR);
 
     birthYear = currentYear - age;
 
