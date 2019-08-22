@@ -1,5 +1,6 @@
 // input: Scanner - user  - number
 // output: string - The number is positive, or The number is negative
+// note: 0 is neither positive nor negative
 
 import java.util.Scanner;
 
