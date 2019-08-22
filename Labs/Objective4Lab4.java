@@ -8,7 +8,7 @@ public class Objective4Lab4 {
     int userNum;
     Scanner keyboard = new Scanner(System.in);
 
-    System.out.println("Please enter a number (no decimal): "); //decimal will chrash program
+    System.out.println("Please enter a number (no decimal): "); //decimal1 will chrash program
     userNum = keyboard.nextInt();
 
     if (userNum % 2 == 0) {
