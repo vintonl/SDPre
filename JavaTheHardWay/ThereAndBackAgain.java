@@ -3,7 +3,7 @@ public class ThereAndBackAgain {
     System.out.println("Here.");
     erebor(); // must have parentheses to "call" the function
     System.out.println("Back first time.");
-    // erebor(); // Study Drill: commenet this out
+    erebor(); // Study Drill: commenet this out
     System.out.println("Back second time.");
   } // ends here even with code below
 
