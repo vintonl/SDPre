@@ -18,6 +18,18 @@ public class LowestTemperature {
 
     System.out.print("The lowest average daily temperature was ");
     System.out.println(lowest + "F (" + fToC(lowest) + "C)" );
+
+// Study Drill, add highest:
+    double highest = lowest;
+
+    for (int a = 0; a < temps.length; a++) {
+      if (temps[a] > highest) {
+        highest = temps[a];
+      }
+    }
+
+    System.out.print("The highest average daily temperature was ");
+    System.out.println(highest + "F (" +fToC(highest) + " C)");
   }
 
   public static double[] arrayFromUrl(String url) throws Exception {
