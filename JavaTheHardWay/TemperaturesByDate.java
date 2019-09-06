@@ -44,8 +44,6 @@ public class TemperaturesByDate {
     System.out.print("Average daily temperature over " + count);
     System.out.println(" days in January: " + avg);
 
-    TemperatureSample ts = tempDB[0];
-    System.out.println(ts);
   }
 
   public static double roundToOneDecimal(double d) {
